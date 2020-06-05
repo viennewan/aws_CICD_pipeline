@@ -1,0 +1,18 @@
+{
+  "name": "projectpipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.6",
+    "mysql": "^2.5.4"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
