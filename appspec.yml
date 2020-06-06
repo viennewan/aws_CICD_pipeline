@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+  - source: main.js
+    destination: main.js
+hooks:
+  BeforeInstall:
+    - location: main.js
+  AfterInstall:
+    - location: main.test.js
+      timeout: 180
+  ApplicationStart:
+    - location: main.test.js
+      timeout: 3600
