@@ -5,10 +5,9 @@ files:
     destination: main.js
 hooks:
   BeforeInstall:
-    - location: main.js
-  AfterInstall:
-    - location: main.test.js
-      timeout: 180
+    - location: ./library.sh
   ApplicationStart:
-    - location: main.test.js
+    - location: ./run.sh
+      timeout: 3600
+    - location: ./test.sh
       timeout: 3600
