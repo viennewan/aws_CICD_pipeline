@@ -1,3 +1,4 @@
+/*
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     : 'localhost',
@@ -6,7 +7,7 @@ var connection = mysql.createConnection({
   database : '<your database name>'
 });
 
-/* connection.connect();
+connection.connect();
 
 connection.query('SELECT * from < table name >', function(err, rows, fields) {
   if (!err)
