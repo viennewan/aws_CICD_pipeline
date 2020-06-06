@@ -2,7 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: main.js
-    destination: main.js
+    destination: ./main.js
+  - source: main.test.js
+    destination: ./main.test.js
 hooks:
   BeforeInstall:
     - location: ./library.sh
