@@ -1,5 +1,4 @@
-/*
-var mysql      = require('mysql');
+/* var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     : 'localhost',
   user     : '< MySQL username >',
@@ -20,7 +19,7 @@ connection.end(); */
 
 
 function sum(a,b) {
-  return a+b;
+  return a+b+1;
 }
 
 module.exports = sum;
