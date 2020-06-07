@@ -6,4 +6,4 @@ if which node > /dev/null
         sudo apt --yes --force-yes install nodejs
         node --version
     fi
-npm install
+sudo npm install
