@@ -1,5 +1,14 @@
 version: 0.0
 os: linux
+files:
+  - source: main.js
+    destination: ./
+  - source: index.js
+    destination: ./
+  - source: main.test.js
+    destination: ./
+  - source: package.json
+    destination: ./
 hooks:
   BeforeInstall:
     - location: ./library.sh
