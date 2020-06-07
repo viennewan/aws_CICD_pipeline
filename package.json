@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "pm2 start index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.10.6",
+    "express": "^4.17.1",
+    "jest": "^26.0.1",
     "mysql": "^2.5.4",
-    "jest": "^26.0.1"
+    "pm2": "^4.4.0"
   },
   "devDependencies": {
     "jest": "^26.0.1"
