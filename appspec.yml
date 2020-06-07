@@ -1,13 +1,5 @@
 version: 0.0
 os: linux
-files:
-  - source: main.test.js
-    destination: ./
-  - source: package.json
-    destination: ./
-  - source: setup-mysql.sh
-    destination: ./
-
 hooks:
   BeforeInstall:
     - location: ./library.sh
