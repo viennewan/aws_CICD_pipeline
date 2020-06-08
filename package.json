@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "sudo npm install pm2 -g",
     "test": "jest",
     "start": "pm2 start index.js"
   },
@@ -15,7 +14,7 @@
     "jest": "^26.0.1",
     "mysql": "^2.5.4"
   },
-  "globalDependencies":{
+  "globalDependencies": {
     "pm2": "^4.4.0"
   },
   "devDependencies": {

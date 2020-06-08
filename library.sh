@@ -7,4 +7,5 @@ if which node > /dev/null
         node --version
     fi
 sudo rm -rf node_modules/
+sudo npm install -g pm2
 sudo npm install
