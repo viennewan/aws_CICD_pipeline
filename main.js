@@ -10,16 +10,11 @@ function numberOfFiles() {
   connection.connect();
   connection.query('SELECT * from Files', (err, rows) => {
     if (!err){
-      
-      console.log('The solution is: ', rows);
       numOfFiles = rows.length;
-      console.log("a:"+numOfFiles);
-      
     }
     else
       console.log('Error while performing Query.');
   });
-  console.log("b: "+numOfFiles);
   connection.end(); 
   return numOfFiles;
 }
