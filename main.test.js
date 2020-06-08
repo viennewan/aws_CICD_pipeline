@@ -1,5 +1,5 @@
-const sum = require('./main');
+const numberOfFiles = require('./main');
 
-test('adding 1 + 2 equals to 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test('Should be 0 files!', () => {
+  expect(numberOfFiles()).toBe(0);
 });
