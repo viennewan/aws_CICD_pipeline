@@ -5,7 +5,7 @@
 When developers push commits to Git, as Jenkins is set to check new commits every two minutes, it will trigger building and push version package to s3.
 Jenkins will then trigger the deployment process in AWS CodeDeploy. It will show whether the deployment is successful or failed with error log. 
 
-To trigger a build without any Git push, developer can browse url: 
+To trigger a build manually, developer can browse url: 
 
 <http://3.136.85.238:8080/job/CodeDeployApp/build?token=OPacGRVxBg>
 
@@ -35,7 +35,7 @@ Developers can view if the deployment goes well in console log.
 
 Artifacts are stored in s3 for every new build of application.
 
-## EC2**
+## EC2
 
 The deploy target environments are AWS EC2 instances.
 
@@ -71,6 +71,6 @@ In the application, server listens to 3000 port. Once the application is deploye
 
 ## MySql DB
 
-Hosted in CleverCloud. Simply having two records.
+Hosted in CleverCloud. Simply having two records in table 'Files'.
 
 ![1591686969562](/images/1591686969562.png)
