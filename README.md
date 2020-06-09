@@ -29,7 +29,13 @@ password: 1234QWER
 
 Developers can view if the deployment goes well in console log.
 
-## **EC2**
+## S3
+
+![1591687895532](/images/1591687895532.png)
+
+Artifacts are stored in s3 for every new build of application.
+
+## EC2**
 
 The deploy target environments are AWS EC2 instances.
 
@@ -68,4 +74,3 @@ In the application, server listens to 3000 port. Once the application is deploye
 Hosted in CleverCloud. Simply having two records.
 
 ![1591686969562](/images/1591686969562.png)
-
