@@ -1,2 +1,2 @@
-node main.js
-#npm run start
+#node main.js
+npm run start
